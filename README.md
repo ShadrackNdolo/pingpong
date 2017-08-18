@@ -7,7 +7,7 @@
 ## Description
 This is a web application that displays a list of numbers i.e.  takes a number from a user and returns a range of numbers from 1 to a chosen number with exceptions of 3, 5 and 15 along with their multiples.
 
-## Specifications.
+## How it works.
 The program should return a message when input is not an number
 - Input : a
 - Output : Not a number
@@ -52,7 +52,7 @@ CSS.
 This was an independent project. For any corrections or improvement kindly contact me on gmail.(shadrack.winters@outlook.com)
 
 ## Project Setup.
-* 1.First Youll need a text editor. 
+* 1.You'll need a text editor such as Github's Atom. 
 * 2.Bootstrap framework to facilitate the better format of the website. 
 * 3.Javascript and jquery to facilitate the mathematical prospect of the project.
 
