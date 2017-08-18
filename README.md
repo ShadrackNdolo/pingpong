@@ -16,13 +16,13 @@ This is a web application that displays a list of numbers i.e.  takes a number f
 
 ## Known Bugs
 
-*There are no known bugs.
+There are no known bugs.
 
 ## Technologies Used
 
-*HTML 5.
-*BOOTSTRAP.
-*CSS.
+HTML 5.
+BOOTSTRAP.
+CSS.
 
 ## Contributors
 This was an independent project. For any corrections or improvement kindly contact me on gmail.(shadrack.winters@outlook.com)
