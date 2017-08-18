@@ -1,0 +1,44 @@
+
+/*body{
+  background-color: black;
+}*/
+
+a{
+  color: #FFDC3B;
+}
+
+button{
+  background-color: #ffe900;
+}
+
+button.btn:hover {
+  color: white;
+  background-color: #0F0F40;
+}
+
+.jumbotron{
+  text-align: center;
+  background-color: #ffe900;
+  color: #0F0F40;
+}
+
+.col-md-3, .col-sm-3, .col-xs-3 {
+  background-color: #0F0F40;
+  border-radius: 7px;
+  margin-left: 13px;
+  padding-bottom: 200px;
+  color: white;
+}
+
+.col-md-8, .col-sm-8, .col-xs-8{
+  margin-left: 20px
+  /*color: red;*/
+}
+
+#result{
+  display: none;
+}
+
+#color{
+  color: white;
+}
