@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Ping Pong</title>
+</head>
+
+<body>
+  <!--columnppart-->
+  <div class="container">
+    <div class="jumbotron">
+      <img src="images/logo.png" alt="pingponglogo" style="width:200px;height:200px;">
+    </div>
+    <div class="row">
+      <div class="col-md-3, col-sm-3, col-xs-3">
+        <h3>About Ping Pong</h3>
+        <h4>Created by:</h4>
+        <p>Winter Shadrack</p>
+        <h4>GitHub Username:</h4>
+        <a href="https://github.com/ShadrackNdolo/">Winter Shadrack</a>
+      </div>
+      <div class="col-md-8, col-sm-8, col-xs-8" id="color">
+        <h3>Let's play!</h3>
+        <hr>
+        <h2>Rules:</h2>
+        <p>
+          Ping Pong will count up to your number from 1 with the following exceptions:
+        </p>
+        <ol>
+          <li>Numbers divisible by 3 become <strong>"ping"</strong></li>
+          <li>Numbers divisible by 5 become <strong>"pong"</strong></li>
+          <li>Numbers divisible by 15 become <strong>"pingpong"</strong></li>
+        </ol>
+        </hr>
+        <form id="userNumber">
+          <div class="form-group">
+            <label for="input">Enter a number here:</label>
+            <input id="number" type="number">
+            <button type="submit" class="btn">Ping Me!</button>
+          </div>
+        </form>
+        <!--answer pod-->
+        <div id="#result">
+          <ul id="ping-pong"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
